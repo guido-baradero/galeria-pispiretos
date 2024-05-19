@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body .header nav .navegacion {
+  margin: auto;
+  width: 80%;
+  display: flex;
+}
+body .header nav .navegacion .encabezado {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  width: 50%;
+}
+body .header nav .navegacion .encabezado img {
+  width: 150px;
+  border-radius: 50%;
+  margin: 10px;
+}
+body .header nav .navegacion .encabezado a h1 {
+  margin: 50px;
+}
+body .header nav .navegacion .encabezado button {
+  margin: auto;
+}
+body .header nav .navegacion .menu {
+  width: 50%;
+  margin: 0 auto;
+  padding: 0;
+}
+body main {
+  margin-top: 20px;
+}
+body main .carousel {
+  margin: auto;
+  width: 60%;
+}
+body main .galeria div {
+  margin: 0;
+}
+body main .galeria div .col {
+  margin: 0;
+}
+body main .galeria div .col .card {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+body main .galeria div .col .card img {
+  margin: auto;
+  height: 250px;
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  body .header nav .navegacion {
+    margin: 0 auto;
+    width: 100%;
+  }
+  body .header nav .navegacion .encabezado {
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+  body .header nav .navegacion .encabezado img {
+    width: 80px;
+    height: 80px;
+  }
+  body .header nav .navegacion .encabezado a h1 {
+    margin: 15px;
+    font-size: 1.4rem;
+  }
+  body main .carousel {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

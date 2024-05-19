@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    .header {
+        //margin: auto;
+        //width: 90%;
+
+        nav {
+            //margin: auto;
+
+            .navegacion {
+                margin: auto;
+                //background-color: aqua;
+                width: 80%;
+                display: flex;
+
+
+
+                .encabezado {
+                    display: flex;
+                    flex-direction: row;
+                    text-align: center;
+                    justify-content: space-around;
+
+                    width: 50%;
+
+                    img {
+                        width: 150px;
+                        border-radius: 50%;
+                        margin: 10px;
+                    }
+
+                    a {
+                        h1 {
+                            margin: 50px;
+                        }
+                    }
+
+                    button {
+                        margin: auto;
+                    }
+
+                }
+
+                .menu {
+                    width: 50%;
+                    margin: 0 auto;
+                    padding: 0;
+
+                    ul {
+                        //justify-content: space-around;
+
+                        li {
+                            //justify-content: flex-end;
+
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    main {
+        margin-top: 20px;
+
+        .carousel {
+
+            margin: auto;
+            width: 60%;
+        }
+
+
+        //GUIRNALDAS
+
+        .galeria {
+            //background-color: aqua;
+
+            div {
+                margin: 0;
+
+                .col {
+                    // padding: 20px;
+                    margin: 0;
+
+
+                    .card {
+                        width: 100%;
+                        margin-top: 40px;
+                        margin-bottom: 40px;
+
+                        img {
+                            margin: auto;
+                            height: 250px;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+    }
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+    body {
+
+        .header {
+            nav {
+                .navegacion {
+                    margin: 0 auto;
+                    width: 100%;
+
+                    .encabezado {
+                        display: flex;
+                        align-items: center;
+                        align-content: center;
+
+                        img {
+                            width: 80px;
+                            height: 80px;
+                        }
+
+                        a {
+                            h1 {
+                                margin: 15px;
+                                font-size: 1.4rem;
+                            }
+                        }
+                    }
+
+                    button {}
+
+                    .menu {}
+                }
+            }
+        }
+
+        main {
+            .carousel {
+                width: 100%;
+            }
+        }
+
+
+    }
+}
