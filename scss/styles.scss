@@ -75,6 +75,23 @@ body {
             width: 60%;
         }
 
+        .textos {
+            width: 60%;
+            margin: auto;
+            margin-top: 50px;
+
+            h2 {
+                text-align: center;
+                margin: 20px;
+            }
+
+            p {
+                text-align: center;
+                font-size: 1.6rem;
+                font-weight: 1.6;
+            }
+        }
+
 
         //GUIRNALDAS
 
@@ -118,10 +135,12 @@ body {
     body {
 
         .header {
+            margin-top: 20px;
+
             nav {
                 .navegacion {
                     margin: 0 auto;
-                    width: 100%;
+                    width: 94%;
 
                     .encabezado {
                         display: flex;
@@ -131,6 +150,7 @@ body {
                         img {
                             width: 80px;
                             height: 80px;
+                            margin: 0;
                         }
 
                         a {
@@ -152,8 +172,54 @@ body {
             .carousel {
                 width: 100%;
             }
+
+            .textos {
+
+                width: 90%;
+                margin: auto;
+
+                h2 {
+                    text-align: center;
+                }
+
+                p {
+                    text-align: justify;
+                }
+            }
+
+            .galeria {
+                //background-color: aqua;
+                width: 100%;
+
+                div {
+                    margin: 0;
+
+                    .col {
+                        // padding: 20px;
+                        margin: 0 auto;
+                        width: 100%;
+
+                        .card {
+                            width: 100%;
+                            margin: 0px;
+                            margin-top: 15px;
+                            margin-bottom: 15px;
+
+                            img {
+                                //margin: auto;
+                                height: 250px;
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+
         }
 
+        footer {
+            background-color: cadetblue;
+        }
 
     }
 }

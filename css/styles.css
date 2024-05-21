@@ -39,6 +39,20 @@ body main .carousel {
   margin: auto;
   width: 60%;
 }
+body main .textos {
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+}
+body main .textos h2 {
+  text-align: center;
+  margin: 20px;
+}
+body main .textos p {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 1.6;
+}
 body main .galeria div {
   margin: 0;
 }
@@ -57,9 +71,12 @@ body main .galeria div .col .card img {
 }
 
 @media (max-width: 576px) {
+  body .header {
+    margin-top: 20px;
+  }
   body .header nav .navegacion {
     margin: 0 auto;
-    width: 100%;
+    width: 94%;
   }
   body .header nav .navegacion .encabezado {
     display: flex;
@@ -69,6 +86,7 @@ body main .galeria div .col .card img {
   body .header nav .navegacion .encabezado img {
     width: 80px;
     height: 80px;
+    margin: 0;
   }
   body .header nav .navegacion .encabezado a h1 {
     margin: 15px;
@@ -76,6 +94,39 @@ body main .galeria div .col .card img {
   }
   body main .carousel {
     width: 100%;
+  }
+  body main .textos {
+    width: 90%;
+    margin: auto;
+  }
+  body main .textos h2 {
+    text-align: center;
+  }
+  body main .textos p {
+    text-align: justify;
+  }
+  body main .galeria {
+    width: 100%;
+  }
+  body main .galeria div {
+    margin: 0;
+  }
+  body main .galeria div .col {
+    margin: 0 auto;
+    width: 100%;
+  }
+  body main .galeria div .col .card {
+    width: 100%;
+    margin: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  body main .galeria div .col .card img {
+    height: 250px;
+    width: 100%;
+  }
+  body footer {
+    background-color: cadetblue;
   }
 }
 
